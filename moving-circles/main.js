@@ -57,6 +57,8 @@
     x = dx;
     y = dy;
     v += dv;
+
+    event.preventDefault();
   }
 
   document.body.addEventListener('mousemove', mouseMove);
