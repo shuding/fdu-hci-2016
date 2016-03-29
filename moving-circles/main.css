@@ -1,0 +1,36 @@
+/* Created by shuding on 3/29/16. */
+/* <ds303077135@gmail.com> */
+
+#slogan {
+  position: absolute;
+  margin: auto;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  text-align: center;
+  height: 2em;
+  font-weight: 100;
+  font-size: 2em;
+  font-family: 'PingFang SC', sans-serif;
+}
+
+small {
+  font-size: 18px;
+  font-weight: 300;
+}
+
+.circle {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  background: red;
+  border-radius: 50%;
+  opacity: 0.5;
+  box-shadow: 1px -4px 14px rgba(255, 255, 255, 0.6) inset;
+  -webkit-transform: translate3d(-25px, -25px, 0);
+  -moz-transform: translate3d(-25px, -25px, 0);
+  -ms-transform: translate3d(-25px, -25px, 0);
+  -o-transform: translate3d(-25px, -25px, 0);
+  transform: translate3d(-25px, -25px, 0);
+}
