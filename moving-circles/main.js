@@ -59,10 +59,13 @@
     v += dv;
 
     event.preventDefault();
+
+    return false;
   }
 
   document.body.addEventListener('mousemove', mouseMove);
   document.body.addEventListener('touchmove', mouseMove);
+  document.body.addEventListener('touchstart', function (ev) { ev.preventDefault(); return false; });
 
   create();
   tick();
