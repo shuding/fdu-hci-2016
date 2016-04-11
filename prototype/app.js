@@ -1,6 +1,6 @@
 Framer.DefaultContext.backgroundColor = '#34cdff';
 
-var sketch = Framer.Importer.load("sketch/app.framer/imported/app@1x");
+var sketch = Framer.Importer.load("imported/app@1x");
 
 sketch.app.x = (window.innerWidth - sketch.app.width) / 2;
 
