@@ -38,12 +38,10 @@
 		<script src="framer/framer.js"></script>
 		<script src="app.js"></script>
 		<script>
-			document.body.onscroll = function () {
-				document.documentElement.scrollTop = 0;
-			};
 			sketch.app.center();
 			sketch.screen.scaleX = window.innerWidth / sketch.screen.width;
 			sketch.screen.scaleY = window.innerHeight / sketch.screen.height;
+			sketch.screen.clip = true;
 		</script>
 	</body>
 </html>
