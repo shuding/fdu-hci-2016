@@ -42,6 +42,9 @@
 			sketch.screen.scaleX = window.innerWidth / sketch.screen.width;
 			sketch.screen.scaleY = window.innerHeight / sketch.screen.height;
 			sketch.screen.clip = true;
+			document.ontouchmove = function(event){
+			    event.preventDefault();
+			}
 		</script>
 	</body>
 </html>
