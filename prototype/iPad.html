@@ -37,6 +37,9 @@
 		<script src="framer/framer.js"></script>
 		<script src="app.js"></script>
 		<script>
+			document.body.onscroll = function () {
+				document.documentElement.scrollTop = 0;
+			};
 			sketch.app.center();
 			sketch.screen.scale = window.innerWidth / sketch.screen.width;
 		</script>
